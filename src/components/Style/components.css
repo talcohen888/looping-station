@@ -1,0 +1,22 @@
+.progressBar {
+        --bar-bg: rgb(139, 139, 48);
+        --seek-before-width: 100px;
+        --seek-before-color: green;
+        --progress-bar-height: 10px;
+        
+}
+
+/* Background */
+.progressBar::before {
+        content: '';
+        background: rgb(69, 69, 105);
+        width: 99%;
+        height: calc(var(--progress-bar-height) - 1px);
+        display: block;
+        position: absolute;
+        border-radius: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+}

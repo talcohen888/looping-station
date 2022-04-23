@@ -1,0 +1,30 @@
+.playBtn {
+  background: url(./buttonImgs/Play.png) no-repeat;
+}
+
+.stopBtn {
+  background: url(./buttonImgs/Stop.png) no-repeat;
+}
+
+.loopBtn {
+  background: url(./buttonImgs/Loop.png) no-repeat;
+}
+
+.muteBtn {
+  background: url(./buttonImgs/Mute.png) no-repeat;
+}
+
+.button {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  background-size: 40%;
+  background-position: center;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 20%;
+}
+
+.button:hover {
+  background-color: rgb(171, 156, 186);
+}
